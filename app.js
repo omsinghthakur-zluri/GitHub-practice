@@ -11,7 +11,7 @@ dotenv.config();
 const app = express();
 // var message = "Hello, world!";
 app.use(cors());
-app.use(express.json());  
+app.use(express.json());
 
 app.use("/api/transactions", transactionRouter);
 
@@ -22,3 +22,5 @@ app.listen(PORT, () => {
 });
 
 console.log('try it');
+
+console.log("hello from main");
