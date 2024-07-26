@@ -28,5 +28,3 @@ console.log("hello from main");
 console.log("this have revert");
 
 console.log("final");
-
-console.log("hello final2");
