@@ -21,12 +21,10 @@ app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
 
-console.log("try it");
+console.log('try it');
 
 console.log("hello from main");
 
 console.log("this have revert");
 
 console.log("final");
-
-console.log("hello final2");
